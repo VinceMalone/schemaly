@@ -1,0 +1,16 @@
+{
+  "name": "schemaly",
+  "version": "1.0.0",
+  "author": "VinceMalone <vince.malone@namely.com>",
+  "main": "index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "node --experimental-modules ./index.mjs"
+  },
+  "dependencies": {
+    "date-fns": "^1.30.1",
+    "faker": "^4.1.0",
+    "ramda": "^0.26.1",
+    "yargs": "^13.3.0"
+  }
+}
